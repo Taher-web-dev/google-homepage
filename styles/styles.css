@@ -1,0 +1,8 @@
+nav{text-align: end;}
+ul{list-style: none;    display: flex;
+    justify-content: space-between;
+    margin-left: 85%;
+    /* vertical-align: middle; */}
+li:nth-child(1){padding-top: 4px;font-family: arial,sans-serif ;}
+#logo{background: url("../static/googlelogo_color_272x92dp.png") no-repeat;position: relative;height: 100px;
+background-position: center;}
