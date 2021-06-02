@@ -1,7 +1,13 @@
-nav{text-align: end;}
-ul{list-style: none;    display: flex;
+
+body{margin-left: 0%;margin-right: 0%;}
+/*nav{text-align: end;}*/
+nav ul{list-style: none;    display: flex;
     justify-content: space-between;
     margin-left: 85%;
+    margin-right:1%;
+    font-family: arial,sans-serif;
+    font-size: smaller;
+    font-weight: 0.8em;
     /* vertical-align: middle; */}
 li:nth-child(1){padding-top: 4px;font-family: arial,sans-serif ;}
 #logo{background: url("../static/googlelogo_color_272x92dp.png") no-repeat;position: relative;height: 140px;
@@ -25,3 +31,18 @@ em:hover{text-decoration: underline;}
     line-height: 27px;
     text-align: center;
     cursor: pointer;}
+#bottom_links{display: flex;justify-content: space-between;}
+#bottom_links ul {list-style: none;display: flex;justify-content: space-between;text-decoration: none;list-style-type: none;
+}
+#bottom_links li {margin: 0;padding: 0;}
+li a {text-decoration: none;color: #868383;font-family: arial,sans-serif;}
+li a:hover {text-decoration: underline;}
+#bottom_links ul:nth-child(1){width:45%;}
+#bottom_links ul:nth-child(2){width:25%;margin-right: 30px;}
+footer{background-color: #f3f3f3;margin-top: 14%;}
+#loc{border-bottom: 1px solid #d2cdcd;color:#868383;}
+#loc p {margin-left: 38px;padding-top: 10px;font-family: arial,sans-serif;}
+    /* vertical-align: middle; */
+    /* text-align: center; */
+    /* padding-bottom: 4px; */}
+/*#loc p {vertical-align: middle;}*/
