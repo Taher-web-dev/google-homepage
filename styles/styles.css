@@ -13,8 +13,14 @@ li:nth-child(1){padding-top: 4px;font-family: arial,sans-serif ;}
 #logo{background: url("../static/googlelogo_color_272x92dp.png") no-repeat;position: relative;height: 140px;
 background-position: center;}
 #form{text-align: center;}
-#search{border-radius: 20px;border: 1px solid #dad6d6;height: 45px;width: 550px;background:url("../static/outline_settings_voice_black_24dp.png") no-repeat
-510px 8px,url("../static/outline_search_black_24dp.png") no-repeat 8px 8px;}
+#search{border-radius: 20px;border: 1px solid #dad6d6;height: 45px;width: 550px;background:url("../static/google-search.png") no-repeat
+8px 8px,url("../static/google-microphone.png") no-repeat 510px 8px;}
+#search:hover{    /* border: 1px solid #d2cbcb; */
+    /* background-color: white; */
+    /* width: 560px; */
+    /* height: 46px; */
+    border-color: white;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);}
 /*background-position: 510px 8px;/*background: url("../static/outline_search_black_24dp.png") no-repeat;*/
 #text{font-family: arial,sans-serif;font-size: small;}
 em {color:blue;}
@@ -31,7 +37,7 @@ em:hover{text-decoration: underline;}
     line-height: 27px;
     text-align: center;
     cursor: pointer;}
-#bottom_links{display: flex;justify-content: space-between;}
+#bottom_links {display: flex;justify-content: space-between;}
 #bottom_links ul {list-style: none;display: flex;justify-content: space-between;text-decoration: none;list-style-type: none;
 }
 #bottom_links li {margin: 0;padding: 0;}
@@ -42,7 +48,13 @@ li a:hover {text-decoration: underline;}
 footer{background-color: #f3f3f3;margin-top: 14%;}
 #loc{border-bottom: 1px solid #d2cdcd;color:#868383;}
 #loc p {margin-left: 38px;padding-top: 10px;font-family: arial,sans-serif;}
+#bt1:hover {border:1px solid #cecec5;}
+#bt2:hover {border:1px solid #cecec5;}
     /* vertical-align: middle; */
     /* text-align: center; */
     /* padding-bottom: 4px; */}
 /*#loc p {vertical-align: middle;}*/
+@media all and (max-width: 1024px)
+{
+	#logo{display: none;}
+}
